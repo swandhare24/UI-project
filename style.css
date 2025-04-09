@@ -1,0 +1,334 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+#container{
+    width: 100%;
+    height: auto;
+}
+main{
+    width: 100%;
+}
+#herosection{
+    width: 100%;
+    background-image: url(image/infinite-loop-01.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#navbar{
+    display: none;
+}
+#header{
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#infinity{
+    width: 47%;
+    padding: 2px;
+    color: white;
+}
+#menu{
+    width: 47%;
+    padding: 2px;
+    text-align: right;
+}
+#hero_content{
+    width: 100%;
+    padding: 5px;
+    margin-top: 50px;
+    color: white;
+    text-align: center;
+    line-height: 1.8;
+}
+#down_arrow{
+    width: 100%;
+    padding: 40px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#down_arrow button{
+    background-color: #707070;
+    border: none;
+    color: white;
+    font-size: 20px;
+}
+
+#whattodo{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.about_uniq{
+    width: 100%;
+    padding: 0px 20px;
+    margin-top: 50px;
+    text-align: left;
+}
+.about_uniq h2{
+    font-family: "Raleway", sans-serif;
+    font-size: xx-large;
+    color: #37A;
+}
+.about_uniq p{
+    font-family: "Raleway", sans-serif;
+    font-size: large;
+    line-height: 1.8;
+}
+#laptop{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.parent{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0px 20px;
+    margin-top: 30px;
+}
+.child_icon{
+    width: 100%;
+    text-align: center;
+    font-size: larger;
+    margin-top: 15px;
+}
+.child_info{
+    width: 100%;
+}
+.child_info h2{
+    font-family: "Raleway", sans-serif;
+    font-size: xx-large;
+    color: #37A;
+}
+.child_info p{
+    font-family: "Raleway", sans-serif;
+    font-size: large;
+    line-height: 1.8;
+}
+.child_info button{
+    background-color: rgb(3, 3, 72);
+    color: white;
+    font-size: larger;
+}
+#Testimonials{
+    width: 100%;
+    background-image: url(image/infinite-loop-02-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.Testimonials_unique{
+    width: 100%;
+    color: white;
+    line-height: 1.8;
+    margin-top: 50px;
+    padding: 10px;
+}
+.Testimonials_unique h2{
+    font-size: xx-large;
+}
+.Testimonials_unique p{
+    font-size: larger;
+}
+.Testimonials{
+    width: 100%;
+    color: white;
+    line-height: 1.8;
+    padding: 10px;
+}
+.Testimonials img{
+    border-radius: 50%;
+    object-fit: cover;
+}
+#gallery{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#gallery_uniq{
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    margin-top: 50px;
+}
+#gallery_uniq h2{
+    font-family: "Raleway", sans-serif;
+    font-size: xx-large;
+    color: #37A;
+}
+#gallery_uniq p{
+    font-family: "Raleway", sans-serif;
+    font-size: large;
+    line-height: 1.8;
+}
+.image{
+    width: 95%;
+    text-align: center;
+}
+.image img{
+    width: 100%;
+}
+footer{
+    width: 100%;
+}
+#contactus{
+    background-image: url(image/infinite-loop-03.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#contactus_uniq{
+    width: 95%;
+    padding: 5px;
+    margin-top: 50px;
+    color: white;
+    text-align: center;
+}
+#contactus_uniq h2{
+    font-family: "Raleway", sans-serif;
+    font-size: xx-large;
+}
+#contactus_uniq p{
+    font-family: "Raleway", sans-serif;
+    font-size: large;
+    line-height: 1.8;
+}
+#sidebyside{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+form{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 1.8;
+    justify-content: center;
+    align-items: center;
+}
+#form input{
+    width: 95%;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
+#form textarea{
+    width: 95%;
+    height: 100px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
+#form button{
+    background-color: rgb(3, 3, 72);
+    color: white;
+    font-size: larger;
+}
+#social{
+    width: 100%;
+    margin-top: 50px;
+}
+.contact_item a {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    text-decoration: none;
+}
+#ft{
+    width: 100%;
+    padding: 10px;
+    color: yellow;
+    text-align: center;
+}
+
+@media only screen and (min-width:768px){
+    header{
+        justify-content: space-between;
+    }
+    #infinity{
+        width: 23%;
+        padding: 10px 0px 0px 10px;
+        text-align: center;
+    }
+    #menu{
+        display: none;
+    }
+    #navbar{
+        width: 72%;
+        display: flex;
+        text-align: center;
+        font-size: larger;
+        padding: 10px 0px 10px 0px;
+    }
+    #navbar nav {
+        display: flex;
+        gap: 40px;
+    }
+    #navbar nav a{
+        text-decoration: none;
+    }
+    .Testimonials{
+        width: 45%;
+    }
+    #gallery{
+        justify-content: space-evenly;
+    }
+    .image{
+        width: 27%;
+    }
+    #form{
+        width: 49%;
+    }
+    #social{
+        width: 49%;
+    }
+}
+
+@media only screen and (min-width:1024px){
+    #navbar nav {
+        gap: 80px;
+    }
+    .parent{
+        width: 49%;
+        justify-content: space-between;
+    }
+    .child_icon{
+        width: 23%;
+    }
+    .child_info{
+        width: 73%;
+    }
+    .Testimonials{
+        width: 25%;
+    }
+    .image{
+        width: 17%;
+    }
+    #form{
+        width: 49%;
+    }
+    #social{
+        width: 49%;
+    }
+}
